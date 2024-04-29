@@ -6,9 +6,10 @@
     href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
     rel="stylesheet"
   />
-  <link rel="stylesheet" type="text/css" href="/pages/App.css" />
+  <link rel="stylesheet" type="text/css" href="App.css" />
 </head>
 <html>
+  <div class="PH" style="background-color: #58b6ae">
     <div class="nav-bar">
 
         <div class="nav-link">
@@ -18,16 +19,91 @@
           <div class="nav-link dropdown">
             <a href="#"><p>projects</a>
             <div class="dropdown-content">
-              <a href="/pages/App/App.html">Bird Banding Station App</a>
+              <a href="/pages/BEAR/BEAR.html">Bear Divide Bird Banding Station website</a>
+              <a href="/pages/App/App.html">Bird Banding Station mobile app</a>
             </div>
-        
         </div>
           
         <div class = "nav-link">
           <a href="../index.html"><p>resume</p></a> </div>
         </div>
 
+    <div class="PH-content">
+      <p class="PH-title">Bird Banding Station mobile app</p>
+      <br />
+      <p class="PH-desc">
+        Building a mobile app to easily track bird banding station tasks using React Native
+      </p>
+    </div>
+  </div>
 
-        
+  <div class="page-body">
+    <div class="section">
+      <p class="section-title">Background</p>
+      <p class="section-body">
+        The Bear Divide Bird Banding Station works to band the thousands of birds that migrate through the San Gabriel Mountains of Santa Clarita, California each spring since 2021. After volunteering there as a bird bander for the 2023 spring season, I designed their website for a paid summer internship through Pasadena Unified School District's Career Pathways program. 
+      </p>
+      <br />
+      <img src="./BEAR/BEARwebsite.png" width="630" height="335" />
+    </div>
 
+    <div class="section">
+      <p class="section-title">The Initial Design</p>
+      <p class="section-body">
+        The initial design for this project was built in Figma, which allowed me to plan out how each page of the app would look and mock up the functionality of buttons that connect to other pages.
+      </p>
+
+      <div class="section">
+        <img
+          src="./App/ZumaNets.png"
+          style="width: 468px; height: 149px"
+        />
+      </div>
+    </div>
+    <div class="three-grid-sec">
+      <div class="section">
+        <img
+          src="./App/ReportAnIssue.png"
+          style="width: 455px; height: 343px"
+        />
+      </div>
+
+
+    <div class="section">
+      <p class="section-title">The Final Design</p>
+      <p class="section-body">
+        The final design includes a map feature where users can click on mist nets and gather information on location of poles and rebar, location of fixed ends, and any special conditions (ex. Soft soil, susceptible to high winds, poison oak). Users can also also easily access information on net round times, time until next net round, and connect with other bird banders at their banding station. Another feature also allows users to report issues with specific nets (ex. Broken rock, replace materials, vegetation trimming needed) and see notifications submitted by other banders.
+
+
+      </p>
+      <br />
+      <br />
+
+      <img src="./App assets/ReportAnIssue.png" style="width: 60%" />
+      <img src="./App assets/ZumaNets.png" style="width: 60%" />
+    </div>
+
+    <div class="section">
+      <p class="section-title">What's next?</p>
+      <p class="section-body">
+        This format can easily be adopted for other banding stations. All that would be required would be to add new nets and their locations on a map and add new profiles. 
+      </p>
+    </div>
+  </div>
+  <br />
+  <br />
+  <div
+    style="
+      height: 30px;
+      width: 100%;
+      margin: 0;
+      flex-shrink: 0;
+      background-color: #58b6ae;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    "
+  ></div>
 </html>
