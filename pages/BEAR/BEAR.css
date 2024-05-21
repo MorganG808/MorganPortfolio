@@ -74,8 +74,7 @@
     text-align: center;
   }
   
-  .PH-image {
-  }
+
   .PH-title {
     color: #fff;
     font-family: "Libre Baskerville";
@@ -187,3 +186,30 @@
     padding-left: 1%;
     padding-right: 1%;
   }
+
+  .project-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.project-container {
+  width: 494px;
+  padding-right: 5%;
+  margin-bottom: 3%;
+}
+
+.project-inner-container {
+  width: 494px;
+  height: 300px;
+  display:flex;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-img {
+  width: 300px;
+  height: 195px;
+  transition: transform 0.3s ease-in-out; /* Adding a smooth transition effect */
+  cursor: pointer; /* Changing cursor to a hand */
+}
